@@ -12,12 +12,27 @@ body {
 
 .box-1 {
   background-color: aquamarine;
+  border: green 5px dotted;
+  color: purple;
+  text-align: center;
+}
+.box-1 p {
+  color: purple;
 }
 
 .box-2 {
   background-color: brown;
+  border: 10px double grey;
+  color: white;
+  text-align: center;
 }
 
 .box-3 {
-  background-color: bisque;
+  background-color: rgb(192, 241, 243);
+  border: blue 4px dashed;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
