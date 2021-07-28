@@ -1,12 +1,20 @@
 /* add code here */
+/* #container h1 {
+  color: green;
+  text-decoration: underline solid green;
+  padding: 5px;
+} */
 
-
+.header.header h1 {
+  color: green;
+  text-decoration: underline solid green;
+  padding: 5px;
+}
 
 /* add code here */
 
-
 h1 {
- color: red;
+  color: red;
 }
 
 .header h1 {
@@ -18,6 +26,18 @@ p {
 }
 
 .para {
-  text-decoration: none; 
-  color: blueviolet
+  text-decoration: none;
+  color: blueviolet;
+}
+
+/* .para.para {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+} */
+
+#container .para {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
 }
