@@ -10,3 +10,31 @@ p:hover i {
 .secondary a:hover {
   text-decoration: overline;
 }
+
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+.main li:nth-of-type(2n + 1) a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+p b {
+  position: relative;
+}
+
+p:hover b {
+  position: relative;
+  top: -2px;
+  transition: top ease 0.5s;
+  color: red;
+}
